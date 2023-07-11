@@ -14,7 +14,7 @@ var login = require('./routes/login');
 var products = require('./routes/products');
 
 var app = express();
-// ThisIsSecret
+// Here is the postman collection key: PMAT-01H52QDSQPNBADFCPY2DYTBY5R
 // config second logger
 log4js.loadAppender('file');
 //log4js.addAppender(log4js.appenders.console());
