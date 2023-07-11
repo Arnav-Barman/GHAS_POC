@@ -14,7 +14,7 @@ var login = require('./routes/login');
 var products = require('./routes/products');
 
 var app = express();
-
+// ThisIsSecret
 // config second logger
 log4js.loadAppender('file');
 //log4js.addAppender(log4js.appenders.console());
